@@ -1,0 +1,18 @@
+<div class="messages">
+    <div class="wrapper">
+        <h2 class="title" *ngIf="currentChat">You are in {{ currentChat }} chat</h2>
+
+        <app-message
+            *ngFor="let message of messages$ | async"
+            [message]="message"
+            [currentUser]="currentUser"
+            (deleteMessage)="deleteMessage($event)"
+            (editMessage)="editMessage($event)">
+
+        </app-message>
+    </div>
+
+    <app-send-message #sendBlock
+                      (sendMessage)="sendMessage()">
+    </app-send-message>
+</div>

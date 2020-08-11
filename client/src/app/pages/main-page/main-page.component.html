@@ -1,0 +1,11 @@
+<app-header (logout)="logout()"></app-header>
+<div class="wrapper">
+    <div class="sidebar">
+        <app-chat [chats]="chats"></app-chat>
+    </div>
+
+    <div class="messages">
+        <router-outlet></router-outlet>
+    </div>
+</div>
+

@@ -1,0 +1,19 @@
+<form class="form" [formGroup]="authForm">
+
+
+    <div>
+        <h1 class="title">Sign
+            <br>In
+        </h1>
+
+        <div>
+            <input class="input" type="name" name="" formControlName="name" placeholder="Name">
+        </div>
+
+        <div>
+            <input class="input" type="password" name="" formControlName="password" placeholder="Password">
+        </div>
+
+        <button (click)="signIn()" class="sign-in">Sign In</button>
+    </div>
+</form>

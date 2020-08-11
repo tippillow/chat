@@ -1,0 +1,23 @@
+<div class="message" (contextmenu)="onRightClick($event)" (mouseleave)="isOpen = false">
+    <div *ngIf="isOpen && currentUser.name === message?.author?.name"
+         class="edit-window">
+
+        <button (click)="onEditClick()"
+                class="edit">
+            Edit
+        </button>
+
+        <button (click)="onDeleteClick()"
+                class="delete">
+            Delete
+        </button>
+
+    </div>
+    <p class="text">{{message?.text}}
+        <br>{{message.time}}</p>
+
+    <div class="author">
+        <p class="name">{{message?.author?.name}}</p>
+        <img class="avatar" src={{message?.author?.avatar}} alt="avatar">
+    </div>
+</div>

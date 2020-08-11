@@ -1,0 +1,6 @@
+<div *ngFor="let chat of chats">
+    <a class="chat" (click)="onChatClick(chat.name)">
+        <img class="image" src={{chat.img}} alt="">
+        <h1 class="title">{{chat.name | titlecase}}</h1>
+    </a>
+</div>

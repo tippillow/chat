@@ -1,0 +1,20 @@
+<div class="send">
+    <input #inputText [formControl]="textMessage"
+           (keyup.enter)="onSendClick()"
+           type="text"
+           class="text-input"
+           placeholder="Write a message">
+
+    <div>
+        <button
+            (click)="onSendClick()"
+            class="send-button"
+            [disabled]="!textMessage.valid">
+            <img class="send-image" src="assets/images/send.png" alt="send">
+        </button>
+
+        <button class="attach-button">
+            <img class="attach-image" src="assets/images/attach.png" alt="attach">
+        </button>
+    </div>
+</div>
