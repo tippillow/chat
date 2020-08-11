@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="437603e6-076f-44ab-95b4-ffdbe41428ed" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/chat.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/components/header/header.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/components/header/header.component.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/components/header/header.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/components/header/header.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/components/shared.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/config/routing/path.routing.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/guards/auth/auth.guard.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/guards/auth/auth.guard.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/interfaces/chat.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/interfaces/credentials.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/interfaces/dto/message.dto.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/interfaces/message.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/interfaces/user-data.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/pages/auth/auth.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/pages/auth/auth.component.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/pages/auth/auth.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/pages/auth/auth.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/pages/auth/auth.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/pages/auth/auth.routing.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/pages/auth/components/dumb/auth-form/auth-form.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/pages/auth/components/dumb/auth-form/auth-form.component.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/pages/auth/components/dumb/auth-form/auth-form.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/pages/auth/components/dumb/auth-form/auth-form.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/pages/main-page/components/chat/chat.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/pages/main-page/components/chat/chat.component.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/pages/main-page/components/chat/chat.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/pages/main-page/components/chat/chat.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/pages/main-page/components/message/message.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/pages/main-page/components/message/message.component.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/pages/main-page/components/message/message.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/pages/main-page/components/message/message.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/pages/main-page/components/messages/messages.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/pages/main-page/components/messages/messages.component.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/pages/main-page/components/messages/messages.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/pages/main-page/components/messages/messages.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/pages/main-page/components/send-message/send-message.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/pages/main-page/components/send-message/send-message.component.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/pages/main-page/components/send-message/send-message.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/pages/main-page/components/send-message/send-message.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/pages/main-page/main-page.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/pages/main-page/main-page.component.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/pages/main-page/main-page.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/pages/main-page/main-page.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/pages/main-page/main-page.routing.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/services/auth/auth.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/services/auth/auth.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/services/messages/messages.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/services/messages/messages.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/services/web-socket/web-socket.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/app/services/web-socket/web-socket.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/images/attach.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/images/logout.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/assets/images/send.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/client/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/client/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/app.component.less" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/app.component.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles.less" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles.less" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/client" />
+  </component>
+  <component name="ProjectId" id="1fxsHFAg4v42YTUSVTQudtq6Nhp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/server" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="ts.external.directory.path" value="D:\projects\chat\client\node_modules\typescript\lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\projects\chat\server" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="437603e6-076f-44ab-95b4-ffdbe41428ed" name="Default Changelist" comment="" />
+      <created>1597170988885</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597170988885</updated>
+      <workItem from="1597170989966" duration="1347000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="full chat" />
+    <option name="LAST_COMMIT_MESSAGE" value="full chat" />
+  </component>
+</project>
